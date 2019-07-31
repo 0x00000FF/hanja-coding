@@ -14,3 +14,22 @@
     
     反還 0;
 }
+
+// ---------------------------
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+    int i, j;
+    
+    for ( i = 0; i < 3; ++i )
+    {
+        for ( j = 0; j < i + 1; ++j )
+            printf("*");
+        
+        puts("");
+    }
+    
+    return 0;
+}
